@@ -29,6 +29,7 @@ gem 'acts_as_votable', '~> 0.10.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'aws-sdk', '>= 2.0.34'
+gem 'sqlite3'
 
 
 # Use jquery as the JavaScript library
