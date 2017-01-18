@@ -51,6 +51,8 @@ GEM
       aws-sdk-core (= 2.6.47)
     aws-sigv4 (1.0.0)
     bcrypt (3.1.11)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
@@ -180,7 +182,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.3.13)
     thor (0.19.4)
     thread_safe (0.3.5)
     tilt (2.0.5)
@@ -193,11 +194,11 @@ GEM
       execjs (>= 0.3.0, < 3)
     warden (1.2.6)
       rack (>= 1.0)
-    web-console (3.4.0)
-      actionview (>= 5.0)
-      activemodel (>= 5.0)
-      debug_inspector
-      railties (>= 5.0)
+    web-console (2.3.0)
+      activemodel (>= 4.0)
+      binding_of_caller (>= 0.7.2)
+      railties (>= 4.0)
+      sprockets-rails (>= 2.0, < 4.0)
     websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
@@ -220,7 +221,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   masonry-rails (~> 0.2.1)
   paperclip (~> 4.2.0)
-  pg (~> 0.19.0)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.1)
   rails_12factor
@@ -228,11 +229,10 @@ DEPENDENCIES
   simple_form (~> 3.4)
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
-  web-console (>= 3.3.0)
+  web-console (~> 2.0)
 
 BUNDLED WITH
    1.13.6
