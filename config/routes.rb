@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
+
   devise_for :users
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  resources :pics do
+  resources :posts do
     member do
-      put "like", to: "pics#upvote"
+      put "like", to: "posts#upvote"
     end
   end
 
-  root 'pics#index'
+  root 'posts#index'
 end
