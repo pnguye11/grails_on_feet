@@ -13,6 +13,7 @@
 
       - if user_signed_in?
         %ul.nav.navbar-nav.navbar-left
+          %li= link_to "My Post!", myposts_path
           %li= link_to "Rock It!", new_post_path
           %li= link_to "Setting", edit_user_registration_path
         %ul.nav.navbar-nav.navbar-right
