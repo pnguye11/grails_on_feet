@@ -1,24 +1,59 @@
-# README
+#Project 2: CRUD App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Grails On Feet**
 
-Things you may want to cover:
 
-* Ruby version
+- This application is for all the crazy shoes collector out there who wants to show off their love for shoes!
 
-* System dependencies
+- This application is place to show off your photography skills!
 
-* Configuration
+- This app uses Heroku server
 
-* Database creation
 
-* Database initialization
+##TECHNOLOGIES
 
-* How to run the test suite
+- HTML
 
-* Services (job queues, cache servers, search engines, etc.)
+- CSS (Bootstrap)
 
-* Deployment instructions
+- Ruby on Rails (Postgresql Database)
 
-* ...
+- Devise
+
+- Masonry-Rails
+
+- Paperclip
+
+##MVP
+
+* As a user I want to create an account and have it save my information
+
+* As a user I want to be able to edit my post, i.e: price.
+ 
+* As a user I would like to post/see images of the actual shoes for sale.
+
+* As a user I want to be able to see all available purchases.
+
+* As a user I do not want others to edit my post.
+
+* As a user I want to like other post.
+
+
+##ICEBOX
+
+
+Use the Instagram and Tweeter API to stay on top of new releases
+
+As I user I would like to be able to post a shoe and not make it public.
+
+
+As a user I would like to leave a comment.
+
+As a user I would like to rate other users on their description accuracy and overall experience with them.
+
+
+<a href="https://trello.com/b/QGBXkVxw/project-2">Trello</a>
+
+
+
+Thank you!
