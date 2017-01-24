@@ -22,3 +22,6 @@
               - if (user_signed_in? && (current_user.id == @post.user_id))
                 = link_to "Edit", edit_post_path, class: "btn btn-info"
                 = link_to "Delete", post_path, method: :delete, data: { confirm: "Are you sure?!"}, class: "btn btn-danger"
+
+
+

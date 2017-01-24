@@ -1,0 +1,31 @@
+#bs-carousel.carousel.fade-carousel.slide{"data-interval" => "10000", "data-ride" => "carousel"}
+  / Overlay
+  .overlay
+  / Indicators
+  %ol.carousel-indicators
+    %li.active{"data-slide-to" => "0", "data-target" => "#bs-carousel"}
+    %li{"data-slide-to" => "1", "data-target" => "#bs-carousel"}
+    %li{"data-slide-to" => "2", "data-target" => "#bs-carousel"}
+  / Wrapper for slides
+  .carousel-inner
+    .item.slides.active
+      .slide-1
+      .hero
+        %hgroup
+          %h1 Join The Sneaker Community
+          %h3 Post Your Kicks!
+        %button.btn.btn-hero.btn-lg{:role => "button", :link_to => "sneakernews.com", :target => "sneakernews.com"} See all features
+    .item.slides
+      .slide-2
+      .hero
+        %hgroup
+          %h1 Post It!
+          %h3 What Grails Are In Your Collection?!
+        %button.btn.btn-hero.btn-lg{:role => "button"} See all features
+    .item.slides
+      .slide-3
+      .hero
+        %hgroup
+          %h1 Join Now!
+          %h3 Show Off Your Photograohy Skills!
+        %button.btn.btn-hero.btn-lg{:role => "button"} See all features

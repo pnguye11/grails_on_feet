@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   root 'posts#index'
   get 'myposts' => 'posts#myposts'
+  get 'splash' => 'posts#splash'
 end
