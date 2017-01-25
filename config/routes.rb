@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     end
   end
 
-  root 'posts#index'
+  root 'posts#splash'
   get 'myposts' => 'posts#myposts'
-  get 'splash' => 'posts#splash'
+  get 'index' => 'posts#index'
 end
