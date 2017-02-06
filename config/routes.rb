@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  root 'posts#splash'
+
   devise_for :users
 
   resources :posts do
@@ -8,7 +10,6 @@ Rails.application.routes.draw do
     end
   end
 
-  root 'posts#splash'
   get 'myposts' => 'posts#myposts'
   get 'index' => 'posts#index'
 end
